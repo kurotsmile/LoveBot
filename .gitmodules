@@ -7,3 +7,6 @@
 [submodule "Assets/Carrot-Ads"]
 	path = Assets/Carrot-Ads
 	url = https://github.com/kurotsmile/Carrot-Ads.git
+[submodule "Assets/AI-Lover-Unity"]
+	path = Assets/AI-Lover-Unity
+	url = https://github.com/kurotsmile/AI-Lover-Unity.git

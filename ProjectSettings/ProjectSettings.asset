@@ -834,7 +834,7 @@ PlayerSettings:
     PS5: CT_RADIO
     QNX: CT_RADIO
     ReservedCFE: CT_RADIO
-    Standalone: CT_RADIO;UNITY_PIPELINE_URP
+    Standalone: CT_RADIO;UNITY_PIPELINE_URP;LEVELPLAY_DEPENDENCIES_INSTALLED
     VisionOS: CT_RADIO
     WebGL: CT_RADIO
     Windows Store Apps: CT_RADIO

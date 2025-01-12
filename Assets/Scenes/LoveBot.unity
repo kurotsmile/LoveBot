@@ -336,6 +336,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5162338886866966751, guid: 9cc4fd8b7b9658649a998a1af5dc5dd7, type: 3}
+      propertyPath: app_key
+      value: 20b4910f5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162338886866966751, guid: 9cc4fd8b7b9658649a998a1af5dc5dd7, type: 3}
+      propertyPath: id_video
+      value: 8yp87mik3m2fgqka
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162338886866966751, guid: 9cc4fd8b7b9658649a998a1af5dc5dd7, type: 3}
+      propertyPath: id_banner
+      value: mpk5lrra757mt12c
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162338886866966751, guid: 9cc4fd8b7b9658649a998a1af5dc5dd7, type: 3}
+      propertyPath: id_rewarded
+      value: es8m1th13qhzod2v
+      objectReference: {fileID: 0}
     - target: {fileID: 5357031283038376390, guid: 9cc4fd8b7b9658649a998a1af5dc5dd7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

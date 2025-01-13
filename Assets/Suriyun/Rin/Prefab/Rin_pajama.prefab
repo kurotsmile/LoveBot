@@ -7583,15 +7583,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e681a92329d074840b1b4ef5a7fec516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6d39874b32d45204c828efbe772b9b5a, type: 3}
   is_free: 1
   is_materials_1: 1
   is_materials_2: 0
-  skinned_costumes: {fileID: 0}
-  skinned_costumes2: {fileID: 0}
-  skinned_head: {fileID: 0}
-  s_type_costumes: 
-  s_type_head: 
+  skinned_costumes: {fileID: 137240494979896382}
+  skinned_costumes2: {fileID: 137995051972125828}
+  skinned_head: {fileID: 137054803673780178}
+  s_type_costumes: pajama
+  s_type_head: rin_head
 --- !u!1 &1986317748381088
 GameObject:
   m_ObjectHideFlags: 0

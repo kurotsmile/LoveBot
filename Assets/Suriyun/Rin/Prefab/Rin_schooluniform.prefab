@@ -5215,15 +5215,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e681a92329d074840b1b4ef5a7fec516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 4577cbb9bf8410c4e91a438da97a227f, type: 3}
   is_free: 1
   is_materials_1: 1
   is_materials_2: 0
-  skinned_costumes: {fileID: 0}
-  skinned_costumes2: {fileID: 0}
-  skinned_head: {fileID: 0}
-  s_type_costumes: 
-  s_type_head: 
+  skinned_costumes: {fileID: 137280387247775980}
+  skinned_costumes2: {fileID: 137138887910498678}
+  skinned_head: {fileID: 137212986903730272}
+  s_type_costumes: school
+  s_type_head: rin_head
 --- !u!1 &1694552316519912
 GameObject:
   m_ObjectHideFlags: 0

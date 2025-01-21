@@ -9,6 +9,15 @@
         <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="ailover" android:host="data" />
+        <data android:scheme="music" android:host="show" />
+        <data android:scheme="flower" android:host="show" />
+        <data android:scheme="contactstore" android:host="show" />
+      </intent-filter>
     </activity>
     <meta-data android:name="unity.build-id" android:value="2fb9bb0a-8ad6-414c-96cb-061a8963ccf3" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
@@ -20,4 +29,80 @@
   <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" />
+  <uses-permission android:name="android.permission.FLASHLIGHT"/>
+  <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+
+  <queries>
+    <package android:name="com.google.android.googlequicksearchbox"/>
+    <package android:name="com.zing.zalo"/>
+    <package android:name="com.ss.android.ugc.trill"/>
+    <package android:name="com.zhiliaoapp.musically.go"/>
+    <package android:name="com.facebook.orca"/>
+    <package android:name="com.zing.mp3"/>
+    <package android:name="com.lemon.lvoverseas"/>
+    <package android:name="vn.tiki.app.tikiandroid"/>
+    <package android:name="free.tube.premium.advanced.tuber"/>
+    <package android:name="org.telegram.messenger"/>
+    <package android:name="com.mm.android.smartlifeiot"/>
+    <package android:name="com.grabtaxi.passenger"/>
+    <package android:name="com.instagram.android"/>
+    <package android:name="com.cloudflare.onedotonedotonedotone"/>
+    <package android:name="sg.bigo.live"/>
+    <package android:name="com.duolingo"/>
+    <package android:name="com.tinder"/>
+    <package android:name="com.twitter.android"/>
+    <package android:name="com.discord"/>
+    <package android:name="com.valvesoftware.android.steam.community"/>
+    <package android:name="vn.fimplus.app.and"/>
+    <package android:name="com.yy.hiyo"/>
+    <package android:name="com.bstar.intl"/>
+    <package android:name="us.nobarriers.elsa"/>
+    <package android:name="jp.naver.line.android"/>
+    <package android:name="com.tencent.mm"/>
+    <package android:name="com.gsm.customer"/>
+    <package android:name="com.spotify.music"/>
+    <package android:name="com.spotify.lite"/>
+    <package android:name="us.zoom.videomeetings"/>
+    <package android:name="com.netflix.mediaclient"/>
+    <package android:name="com.snapchat.android"/>
+    <package android:name="com.whatsapp"/>
+    <package android:name="com.truecaller"/>
+
+    <package android:name="com.lazada.android"/>
+    <package android:name="com.shopee.vn"/>
+    <package android:name="com.shopeepay.merchant.vn"/>
+    <package android:name="com.chotot.vn"/>
+
+    <package android:name="com.mservice.momotransfer"/>
+    <package android:name="com.bplus.vtpay"/>
+    <package android:name="com.vnid"/>
+    <package android:name="com.mbmobile"/>
+    <package android:name="com.vnpay.Agribank3g"/>
+    <package android:name="com.VCB"/>
+    <package android:name="com.vietinbank.ipay"/>
+    <package android:name="vn.com.techcombank.bb.app"/>
+    <package android:name="vn.homecredit.capp"/>
+    <package android:name="vn.shb.mbanking"/>
+    <package android:name="mobile.acb.com.vn"/>
+      
+    <package android:name="com.supercell.clashofclans"/>
+    <package android:name="com.dts.freefireth"/>
+    <package android:name="com.riotgames.league.wildrift"/>
+    <package android:name="com.roblox.client"/>
+    <package android:name="com.garena.game.kgvn"/>
+    <package android:name="com.outfit7.mytalkingtomfree"/>
+    <package android:name="com.netease.partyglobal"/>
+    <package android:name="gsn.game.zingplaynew"/>
+    <package android:name="com.football.soccer.league"/>
+    <package android:name="com.igg.android.lordsmobilevn"/>
+    <package android:name="com.moonactive.coinmaster"/>
+    <package android:name="com.vng.pubgmobile"/>
+    <package android:name="com.miHoYo.GenshinImpact.vn"/>
+    <package android:name="com.king.candycrushsaga"/>
+    <package android:name="com.innersloth.spacemafia"/>
+    <package android:name="com.vng.codmvn"/>
+  </queries>
 </manifest>

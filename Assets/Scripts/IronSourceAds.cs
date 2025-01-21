@@ -215,6 +215,8 @@ public class IronSourceAds : MonoBehaviour
 
     public void ShowInterstitialAd()
     {
+        if(interstitialAd==null) return;
+        
         if (interstitialAd.IsAdReady())
         {
             interstitialAd.ShowAd();

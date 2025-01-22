@@ -142,7 +142,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1
+  bundleVersion: 0.2
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   metroInputSource: 0
@@ -175,7 +175,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 35
   AndroidPreferredInstallLocation: 1
@@ -827,21 +827,21 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: CT_RADIO;UNITY_PIPELINE_URP;LEVELPLAY_DEPENDENCIES_INSTALLED
-    EmbeddedLinux: CT_RADIO
-    GameCoreXboxOne: CT_RADIO
-    Nintendo Switch: CT_RADIO
-    PS4: CT_RADIO
-    PS5: CT_RADIO
-    QNX: CT_RADIO
-    ReservedCFE: CT_RADIO
-    Standalone: CT_RADIO;UNITY_PIPELINE_URP;LEVELPLAY_DEPENDENCIES_INSTALLED
-    VisionOS: CT_RADIO
-    WebGL: CT_RADIO
-    Windows Store Apps: CT_RADIO
-    XboxOne: CT_RADIO
-    iPhone: CT_RADIO
-    tvOS: CT_RADIO
+    Android: CT_RADIO;UNITY_PIPELINE_URP;LEVELPLAY_DEPENDENCIES_INSTALLED;CT_RTFB
+    EmbeddedLinux: CT_RADIO;CT_RTFB
+    GameCoreXboxOne: CT_RADIO;CT_RTFB
+    Nintendo Switch: CT_RADIO;CT_RTFB
+    PS4: CT_RADIO;CT_RTFB
+    PS5: CT_RADIO;CT_RTFB
+    QNX: CT_RADIO;CT_RTFB
+    ReservedCFE: CT_RADIO;CT_RTFB
+    Standalone: CT_RADIO;UNITY_PIPELINE_URP;LEVELPLAY_DEPENDENCIES_INSTALLED;CT_RTFB
+    VisionOS: CT_RADIO;CT_RTFB
+    WebGL: CT_RADIO;CT_RTFB
+    Windows Store Apps: CT_RADIO;CT_RTFB
+    XboxOne: CT_RADIO;CT_RTFB
+    iPhone: CT_RADIO;CT_RTFB
+    tvOS: CT_RADIO;CT_RTFB
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
